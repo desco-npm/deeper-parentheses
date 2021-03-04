@@ -64,7 +64,7 @@ npm install --save @desco/deeper-parentheses
 
 <a name="Import"></a>
 
-### 📦 Import
+## 📦 Import
 
 ### Node
 
@@ -82,7 +82,7 @@ import deeperParentheses from '@desco/deeper-parentheses'
 
 <a name="How-To-Use"></a>
 
-### 📚 How to use
+## 📚 How to use
 
 ```js
 const deeperParentheses = require('@desco/deeper-parentheses' )
