@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,15 +30,14 @@
 
 ## 📋 Table of Contents
 
-* [✔️ Resources](#Resources)
-* [🛠️ Technology](#Technology)
-* [⚙️ Installation](#Installation)
-* [📚 Documentation](#Documentation)
+- [✔️ Resources](#Resources)
+- [🛠️ Technology](#Technology)
+- [⚙️ Installation](#Installation)
+- [📚 Documentation](#Documentation)
 
 ---
 
 <a name="Tecnologias"></a>
-
 
 <a name="Technology"></a>
 
@@ -46,7 +45,7 @@
 
 The following technologies are used:
 
-* [NodeJS](https://nodejs.org/en/);
+- [NodeJS](https://nodejs.org/en/);
 
 ---
 
@@ -69,13 +68,13 @@ npm install --save @desco/deeper-parentheses
 ### Node
 
 ```js
-const deeperParentheses = require('@desco/deeper-parentheses')
+const deeperParentheses = require("@desco/deeper-parentheses");
 ```
 
 ### Browse
 
 ```js
-import deeperParentheses from '@desco/deeper-parentheses'
+import deeperParentheses from "@desco/deeper-parentheses";
 ```
 
 ---
@@ -85,23 +84,24 @@ import deeperParentheses from '@desco/deeper-parentheses'
 ## 📚 How to use
 
 ```js
-const deeperParentheses = require('@desco/deeper-parentheses' )
+const deeperParentheses = require("@desco/deeper-parentheses");
 
-const expression = '((name = Rafael AND sign = Cancer) || name = Tiago) || (age = 32 || age = 31)'
+const expression =
+  "((name = Rafael AND sign = Cancer) || name = Tiago) || (age = 32 || age = 31)";
 
-const result = deeperParentheses(expression, _subexpression => {
-    // Displayed:
-    //// (name = Rafael AND sign = Cancer)
-    //// (ok || name = Tiago)
-    //// (age = 32 || age = 31)
-    //// ok || ok
-    console.log(_subexpression)
+const result = deeperParentheses(expression, (_subexpression) => {
+  // Displayed:
+  //// (name = Rafael AND sign = Cancer)
+  //// (ok || name = Tiago)
+  //// (age = 32 || age = 31)
+  //// ok || ok
+  console.log(_subexpression);
 
-    return 'ok'
-})
+  return "ok";
+});
 
 // Displayed: ok
-console.log(result)
+console.log(result);
 ```
 
 ---
@@ -125,10 +125,10 @@ console.log(result)
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">

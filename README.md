@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Pacote NPM que permite executar um método passado, primeiro nos níveis mais profundos de uma determinada expressão, para depois os níveis mais profundos.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.6" src="https://img.shields.io/static/v1?label=Versão&message=1.0.6&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.0.6" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.0.6&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -30,21 +30,20 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
 <a name="Tecnologias"></a>
 
-
 ## 🛠️ Tecnologias
 
 As seguintes tecnologias são utilizadas:
 
-* [NodeJS](https://nodejs.org/en/);
+- [NodeJS](https://nodejs.org/en/);
 
 ---
 
@@ -67,13 +66,13 @@ npm install --save @desco/deeper-parentheses
 ### Node
 
 ```js
-const deeperParentheses = require('@desco/deeper-parentheses')
+const deeperParentheses = require("@desco/deeper-parentheses");
 ```
 
 ### Browse
 
 ```js
-import deeperParentheses from '@desco/deeper-parentheses'
+import deeperParentheses from "@desco/deeper-parentheses";
 ```
 
 ---
@@ -83,23 +82,24 @@ import deeperParentheses from '@desco/deeper-parentheses'
 ## 📚 Como Usar
 
 ```js
-const deeperParentheses = require('@desco/deeper-parentheses' )
+const deeperParentheses = require("@desco/deeper-parentheses");
 
-const expression = '((name = Rafael AND sign = Cancer) || name = Tiago) || (age = 32 || age = 31)'
+const expression =
+  "((name = Rafael AND sign = Cancer) || name = Tiago) || (age = 32 || age = 31)";
 
-const result = deeperParentheses(expression, _subexpression => {
-    // Displayed:
-    //// (name = Rafael AND sign = Cancer)
-    //// (ok || name = Tiago)
-    //// (age = 32 || age = 31)
-    //// ok || ok
-    console.log(_subexpression)
+const result = deeperParentheses(expression, (_subexpression) => {
+  // Displayed:
+  //// (name = Rafael AND sign = Cancer)
+  //// (ok || name = Tiago)
+  //// (age = 32 || age = 31)
+  //// ok || ok
+  console.log(_subexpression);
 
-    return 'ok'
-})
+  return "ok";
+});
 
 // Displayed: ok
-console.log(result)
+console.log(result);
 ```
 
 ---
@@ -123,10 +123,10 @@ console.log(result)
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
